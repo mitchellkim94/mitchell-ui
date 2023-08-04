@@ -57,9 +57,6 @@ const StyledButton = styled.button`
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
-  border: 10px solid red;
-  font-size: 20px;
-
   ${(props) =>
     !props.isLoading &&
     `
