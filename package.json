@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@mitchellkim/mitchell-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_5ef2346c3efdfca"
+    "test-storybook": "test-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -32,13 +32,16 @@
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.3",
+    "@storybook/addon-coverage": "^0.0.9",
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
     "@storybook/addon-links": "^7.1.1",
     "@storybook/addon-onboarding": "^1.0.8",
     "@storybook/blocks": "^7.1.1",
+    "@storybook/jest": "^0.1.0",
     "@storybook/react": "^7.1.1",
     "@storybook/react-vite": "^7.1.1",
+    "@storybook/test-runner": "^0.12.0",
     "@storybook/testing-library": "^0.2.0",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
@@ -74,5 +77,11 @@
     }
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "_id": "learnstorybook-design-system-template@0.1.0",
+  "dependencies": {
+    "@storybook/addon-a11y": "^7.2.1"
+  },
+  "description": "UI component library",
+  "repository": "https://github.com/mitchellkim94/mitchell-ui.git",
+  "author": "mitchellkim"
 }
