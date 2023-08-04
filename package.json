@@ -77,7 +77,6 @@
     }
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0",
   "dependencies": {
     "@storybook/addon-a11y": "^7.2.1"
   },
