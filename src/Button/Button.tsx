@@ -332,7 +332,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             children,
             ButtonWrapper,
             ...props
-        }: ButtonProps,
+        },
         ref,
     ) {
         if (ButtonWrapper) {
