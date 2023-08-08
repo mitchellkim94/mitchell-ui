@@ -1,3 +1,16 @@
+# v0.1.10 (Tue Aug 08 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/mitchellkim94/mitchell-ui ([@mitchellkim94](https://github.com/mitchellkim94))
+- 타입경로추가 ([@mitchellkim94](https://github.com/mitchellkim94))
+
+#### Authors: 1
+
+- 김명철 ([@mitchellkim94](https://github.com/mitchellkim94))
+
+---
+
 # v0.1.9 (Tue Aug 08 2023)
 
 #### ⚠️ Pushed to `main`
