@@ -1,3 +1,15 @@
+# v0.1.9 (Tue Aug 08 2023)
+
+#### ⚠️ Pushed to `main`
+
+- 타입스크립트 설정 완료 ([@mitchellkim94](https://github.com/mitchellkim94))
+
+#### Authors: 1
+
+- 김명철 ([@mitchellkim94](https://github.com/mitchellkim94))
+
+---
+
 # v0.1.6 (Mon Aug 07 2023)
 
 #### ⚠️ Pushed to `main`
