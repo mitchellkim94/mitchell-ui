@@ -3,7 +3,33 @@ import styled from '@emotion/styled'
 import { darken, rgba } from 'polished'
 import { color, typography } from '../shared/styles'
 import { easing } from '../shared/animation'
-import { ButtonProps, StyledButtonProps } from './types'
+import { ButtonHTMLAttributes, ElementType, ReactNode } from 'react'
+
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+    isLoading?: boolean
+    loadingText?: ReactNode
+    isLink?: boolean
+    appearance?:
+        | 'primary'
+        | 'primaryOutline'
+        | 'secondary'
+        | 'secondaryOutline'
+        | 'tertiary'
+        | 'outline'
+    isDisabled?: boolean
+    containsIcon?: boolean
+    size?: 'small' | 'medium' | 'large'
+    /**
+     * A component that wraps the button
+     * Can be used to add custom styles or props to the button
+     */
+    ButtonWrapper?: ElementType
+    isUnclickable?: boolean
+}
+
+export type StyledButtonProps = ButtonProps & {
+    as?: React.ElementType
+}
 
 const Text = styled.span`
     display: inline-block;

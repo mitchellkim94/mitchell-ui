@@ -35,18 +35,11 @@ export default [
             }),
             commonjs(),
             terser(),
+            typescript(),
             babel({
                 extensions: ['.js', '.jsx', '.ts', '.tsx'],
                 exclude: 'node_modules/**',
                 babelHelpers: 'bundled',
-            }),
-            typescript({
-                compilerOptions: {
-                    lib: ['es5', 'es6', 'dom'],
-                    target: 'es5',
-                    declaration: true,
-                    declarationDir: './types',
-                },
             }),
         ],
         external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
