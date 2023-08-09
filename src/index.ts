@@ -4,6 +4,7 @@ import * as icons from './shared/icons'
 import * as global from './shared/global'
 
 export { styles, animation, icons, global }
+export * from './shared/theme'
 
 export * from './Button'
 export * from './Icon'
